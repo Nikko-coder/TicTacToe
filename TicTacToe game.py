@@ -291,9 +291,6 @@ def sp_game_start():
         print(f"{p} Congrats! The winner is {winner}! {p}")
         if winner != current_player:
             print("What a shame! The computer beat you!")
-        else:
-            name = input("Please enter your name: ")
-
     else:
         print("Game drawn X:O !")
 
